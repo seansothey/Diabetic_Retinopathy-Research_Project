@@ -1,7 +1,2 @@
 Diabetic retinopathy (DR) is an eye disease caused by the complication of diabetes and we should detect it early for effective treatment. As diabetes progresses, the vision of a patient may start to deteriorate and lead to diabetic retinopathy. As a result, two groups were identified, namely non-proliferative diabetic retinopathy (NPDR) and proliferative diabetic retinopathy (PDR). In this paper, to detect diabetic retinopathy, deep learning technique (Convolutional Neural Network) was used by experimenting in 4 different models, such as basic CNN, Xception (from Keras), InceptionV3 (from Keras) and TeachableMachine (from Google). CNN is very specialized in image classification tasks; therefore, extracting and preprocessing images techniques are not necessary.  The classifier can classify the raw images rapidly based on the associated classes. 500 images from each class are selected, total to 2,500 images. Experimental results show that basic CNN has achieved prediction accuracy of 33%, Xception at 42%, InceptionV3 at 53%, and TeachableMachine at 38%. This infers that the InceptionV3 model outperforms all other models. 
 
-Model	          Train Accuracy %	Test Accuracy %	  Training Time (mn)
-Basic CNN	            91	              33	              20
-Xception	            95	              42	              105
-InceptionV3	          100	              53	              120
-TeachableMachine	    100	              38	              35
